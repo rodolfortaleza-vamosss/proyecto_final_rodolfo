@@ -1,0 +1,689 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Raleway:wght@400;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: 'Raleway', sans-serif;
+    color: #000;
+    background-color: #fff;
+}
+
+
+.contenedor {
+    width: 1030px;
+    margin: 0 auto;
+}
+
+
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+}
+
+
+img {
+    width: 100%;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------------------------------------------------------- 
+----------------------------  ENCABEZADO  -------------------------------- 
+------------------------------------------------------------------------------- */
+
+
+header {
+    text-align: center;
+}
+
+
+.logo {
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+    font-weight: 700;
+    padding: 65px 0 35px;
+}
+
+
+.logo span {
+    color: #037bc0;
+}
+
+
+.navegacion {
+    border-top: 1px solid #ddd;
+}
+
+
+.navegacion-contenido {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 26px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.navegacion a {
+    color: #000;
+}
+
+
+/* ------------------------------------------------------------------------------- 
+----------------------------  IMAGEN PRINCIPAL  -------------------------------- 
+------------------------------------------------------------------------------- */
+
+
+.principal {
+    height: 550px;
+    overflow: hidden;
+}
+
+
+.principal img {
+    width: 100%;
+    margin-top: -260px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------------------------------------------------------- 
+----------------------------  CATEGORÍAS  -------------------------------- 
+------------------------------------------------------------------------------- */
+
+
+.categorias {
+    padding: 65px 0 65px;
+}
+
+
+.categorias h2 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 35px;
+}
+
+
+.categorias-listado {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 17px;
+}
+
+
+.categorias-listado article {
+    text-align: center;
+}
+
+
+.categorias-listado h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------------------------------------------------------- 
+----------------------------  NOSOTROS  -------------------------------- 
+------------------------------------------------------------------------------- */
+
+
+.pagina {
+    padding: 65px 0 40px;
+}
+
+
+.pagina h2 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 35px;
+}
+
+
+.nosotros-contenido {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+
+.nosotros-contenido img {
+    width: 100%;
+}
+
+
+.nosotros-contenido p {
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------------------------------------------------------- 
+----------------------------  SOBRE NOSOTROS DEL INICIO  -------------------------------- 
+------------------------------------------------------------------------------- */
+
+
+.nosotros {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.nosotros-texto {
+    background-color: #037bc0;
+    color: #fff;
+    padding: 80px;
+}
+
+
+.nosotros-texto h2 {
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+
+.nosotros-texto p {
+    line-height: 1.8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------------------------------------------------------- 
+----------------------------  PRODUCTOS  -------------------------------- 
+------------------------------------------------------------------------------- */
+
+
+.productos {
+    padding: 60px 0;
+}
+
+
+.productos h2 {
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 35px;
+}
+
+
+.productos-listado {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 17px;
+}
+
+
+.producto {
+    background-color: #037bc0;
+    color: #fff;
+    text-align: center;
+}
+
+
+.producto div {
+    padding: 25px 17px;
+}
+
+
+.producto h3 {
+    font-size: 27px;
+    margin-bottom: 15px;
+}
+
+
+.producto p {
+    line-height: 1.7;
+}
+
+
+.producto .precio {
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+
+.producto a {
+    display: block;
+    background-color: #8cbc00;
+    color: #fff;
+    padding: 14px;
+    margin-top: 20px;
+    font-weight: 700;
+}
+
+
+.producto-destacado {
+    grid-column: 1 / 7;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+
+.producto-doble {
+    grid-column: span 3;
+}
+
+
+.producto-simple {
+    grid-column: span 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------------------------------------------------------- 
+----------------------------  TIENDA  -------------------------------- 
+------------------------------------------------------------------------------- */
+
+
+.tienda-producto {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    background-color: #037bc0;
+    color: #fff;
+}
+
+
+.tienda-informacion {
+    padding: 25px 17px;
+    text-align: center;
+}
+
+
+.tienda-informacion h3 {
+    font-size: 27px;
+    margin-bottom: 15px;
+}
+
+
+.tienda-informacion p {
+    line-height: 1.7;
+}
+
+
+.tienda-informacion .precio {
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+
+.tienda-informacion a {
+    display: block;
+    background-color: #8cbc00;
+    color: #fff;
+    padding: 14px;
+    margin-top: 20px;
+    font-weight: 700;
+}
+
+
+.tienda-listado {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 17px;
+    margin-top: 17px;
+}
+
+
+
+
+.producto-doble {
+    grid-column: span 3;
+    background-color: #037bc0;
+    color: #fff;
+}
+
+
+.producto-simple {
+    grid-column: span 2;
+    background-color: #037bc0;
+    color: #fff;
+}
+
+
+.producto-doble img,
+.producto-simple img {
+    width: 100%;
+}
+
+
+/* ------------------------------------------------------------------------------- 
+----------------------------  BLOG  -------------------------------- 
+------------------------------------------------------------------------------- */
+
+
+.blog-contenido {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 40px;
+}
+
+
+.entrada-blog {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 30px;
+    margin-bottom: 25px;
+}
+
+
+.entrada-blog h3 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+
+
+
+.entrada-blog img {
+    width: 100%;
+}
+
+
+.blog-informacion {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 10px;
+}
+
+
+.blog-informacion p {
+    font-size: 12px;
+}
+
+
+.entrada-blog > p {
+    line-height: 1.8;
+    margin: 15px 10px;
+}
+
+
+.boton-blog {
+    display: block;
+    width: 155px;
+    background-color: #8cbc00;
+    color: #fff;
+    text-align: center;
+    padding: 14px;
+    margin: 15px 10px 0;
+    font-weight: 700;
+}
+
+
+.blog-contenido aside h3 {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+
+.blog-contenido aside ul {
+    padding-left: 20px;
+}
+
+
+.blog-contenido aside li {
+    margin-bottom: 10px;
+}
+
+
+.blog-contenido aside a {
+    color: #000;
+}
+
+
+
+
+
+/* ------------------------------------------------------------------------------- 
+----------------------------  GALERÍA  -------------------------------- 
+------------------------------------------------------------------------------- */
+
+
+.galeria-listado {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 17px;
+}
+
+
+.galeria-imagen {
+    width: 100%;
+    height: 332px;
+    overflow: hidden;
+}
+
+
+.galeria-imagen img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+
+/* ------------------------------------------------------------------------------- 
+----------------------------  FORMULARIO  -------------------------------- 
+------------------------------------------------------------------------------- */
+
+
+.formulario {
+    width: 380px;
+    margin: 0 auto;
+
+}
+
+
+.formulario fieldset {
+    border: 1px solid #777;
+    padding: 25px 8px 18px;
+    margin-bottom: 12px;
+}
+
+
+.formulario legend {
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #005485;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+
+.campo {
+    display: grid;
+    grid-template-columns: 64px 1fr;
+    gap: 0;
+    align-items: center;
+    margin-bottom: 13px;
+}
+
+
+.campo label {
+    font-size: 12px;
+}
+
+
+.campo input,
+.campo select,
+.campo textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 7px;
+    border: 1px solid #ddd;
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+}
+
+
+.campo textarea {
+    height: 130px;
+}
+
+
+.campo-radio {
+    display: grid;
+    grid-template-columns: 64px 1fr;
+    align-items: center;
+    margin-bottom: 13px;
+}
+
+
+.campo-radio label {
+    font-size: 12px;
+}
+
+
+
+.campo-radio input {
+    width: 13px;
+    height: 13px;
+}
+
+
+.formulario input[type="submit"] {
+    background-color: #8cbc00;
+    color: #fff;
+    border: none;
+    padding: 12px 10px;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+
+/* ------------------------------------------------------------------------------- 
+----------------------------  FOOTER  -------------------------------- 
+------------------------------------------------------------------------------- */
+
+
+footer {
+    border-top: 1px solid #ddd;
+}
+
+
+.pie-contenedor {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    padding: 55px 0;
+}
+
+
+
+
+
+
+.pie-contenedor h3 {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+
+.pie-contenedor a {
+    display: block;
+    color: #000;
+    margin-bottom: 12px;
+}
+
+
+.copyright {
+    text-align: center;
+    padding: 15px 0;
+}
+
+
+.copyright p {
+    font-size: 14px;
+}
